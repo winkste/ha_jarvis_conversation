@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "JARVIS verbinden",
+        "description": "Verbinde den Hermes-API-Server, auf dem JARVIS läuft.",
+        "data": {
+          "url": "URL",
+          "api_key": "API-Schlüssel",
+          "timeout": "Zeitlimit"
+        },
+        "data_description": {
+          "url": "Adresse des Hermes-API-Servers, z. B. http://192.168.1.20:8642",
+          "api_key": "Wert von API_SERVER_KEY in der Hermes-Konfiguration",
+          "timeout": "Maximale Wartezeit auf eine Antwort"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Der Hermes-API-Server ist nicht erreichbar.",
+      "invalid_auth": "Der API-Schlüssel wurde abgelehnt.",
+      "unknown": "Unerwartete Antwort vom Hermes-API-Server."
+    },
+    "abort": {
+      "already_configured": "Dieser Hermes-API-Server ist bereits eingerichtet."
+    }
+  }
+}

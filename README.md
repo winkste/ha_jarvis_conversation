@@ -65,6 +65,8 @@ streaming enabled. The Home Assistant conversation id is used as the Hermes
 conversation name (`ha-<conversation id>`), so follow-up questions share the
 same history. Device, satellite, area and language are sent as `instructions`.
 
+For a detailed walkthrough of the code, see [docs/how-it-works.md](docs/how-it-works.md).
+
 ## License
 
 MIT
